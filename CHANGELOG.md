@@ -1,6 +1,15 @@
 Changelog
 =========
 
+2.3
+---
+
+  * Do not depend on List, String, Bytes, Int32, Int64, Nativeint,
+    Array being bound to their standard library implementations.
+  * Improve handling of extensions of polymorphic variants.
+  * Deserialize floats from integer literals.
+  * Squash warnings 33 and 34.
+
 2.2
 ---
 
